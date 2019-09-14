@@ -1,4 +1,4 @@
-class StudentsController < ApplicationController
+StudentsController < ApplicationController
   def new
     @student = Student.new
   end
